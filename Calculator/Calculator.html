@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./Calcuculator.css">
+</head>
+    <body>
+        <h1>Calculator.net</h1>
+        <form class = "form" onsubmit = "calculate()">
+            <input type="number" id="a" placeholder="First Number" aria-placeholder="First Number">
+            <input type="number" id="b" placeholder="Second Number" aria-placeholder="Second Number">
+            <button type= "submit">Calculate</button>
+        </form>
+        <p style="display: none" id = "ans">Result : <input id="answer"></p>
+        <script src="./Calculator.js"></script>
+    </body>
+</html>
