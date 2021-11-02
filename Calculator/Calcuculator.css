@@ -5,3 +5,19 @@ h1{
     padding: 4%;
     text-align: center;
 }
+
+.form {
+    background-color:cornsilk;
+    margin: 50px;
+    padding: 50px;
+}
+
+.bottom {
+    position: fixed;
+    font-size:130%;
+    background-color:rgb(123, 129, 123);
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+}

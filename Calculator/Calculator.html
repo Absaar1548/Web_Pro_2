@@ -9,12 +9,27 @@
 </head>
     <body>
         <h1>Calculator.net</h1>
+        <p>Developed by 💥 <font color = "Green">Absaar Ali</font> 💥 </p>
         <form class = "form" onsubmit = "calculate()">
             <input type="number" id="a" placeholder="First Number" aria-placeholder="First Number">
             <input type="number" id="b" placeholder="Second Number" aria-placeholder="Second Number">
+            <select name="Operator" id="c" >
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="*">*</option>
+                <option value="/">/</option>
+                <option value="^">^</option>
+            </select>
             <button type= "submit">Calculate</button>
         </form>
         <p style="display: none" id = "ans">Result : <input id="answer"></p>
+        <p>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0TIAfAaSQre7hChMCC_MuVpdZe8fRCofYxg&usqp=CAU" alt="Calcuculator">
+        </p>
+        <p class="bottom">
+            <a href="" class="active">Home</a>
+            <a href="">Contact</a>
+        </p>
         <script src="./Calculator.js"></script>
     </body>
 </html>
